@@ -1,0 +1,26 @@
+.customNextArrow,
+.customPrevArrow {
+  background-color: #000000;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customNextArrow:before,
+.customPrevArrow:before {
+  content: "";
+  border: solid rgb(3, 3, 3);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.customPrevArrow:before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}

@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+
+.containersearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+}
+
+.menu{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.unstyle{
+    all: unset;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+}
+
+.option{
+    font-size: 14px;
+    display: flex;
+    min-width:130px;
+    max-width:130px;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.option label{
+    margin-left: 10px;
+}
+
+.calendar{
+    height: 29px;
+    width: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.calendar:hover{
+    border-color: #61caff
+}
+
+select::after{
+    max-height: 500px;
+}
+
+select:hover{
+    border-color: #61caff
+}
+
+.button{
+    height: 30px;
+    width: 30%;
+    background: rgb(78, 78, 253);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

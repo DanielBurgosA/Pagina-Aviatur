@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding-top: 70px;
+    background: rgb(246, 246, 246);
+    border-bottom: 1px solid black;
+}
+
+.container p{
+    font-size: 14px;
+    margin: 10px;
+}
